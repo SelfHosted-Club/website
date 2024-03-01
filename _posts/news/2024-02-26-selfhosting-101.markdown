@@ -2,21 +2,25 @@
 layout: post
 title: "Self-Hosting 101: The World of Hosting Your Own Services"
 description: Explore self-hosting with our guide. Learn the basics, how to start, key considerations, costs, risks, and available support options.
-date: 2023-06-24T22:57:00.359Z
-tags: news
-categories: news
-author: Ilia
-preview: /banners/hosting101_hero.jpg
+date: 2023-06-04T22:57:00.359Z
+tags: News
+categories: [General, News]
+author: Tivin
+image: /img/banners/hosting101_hero.jpg
 slug: hosting-101-world-hosting-services
+preview: /img/banners/hosting101_hero.jpg
 ---
 
 # Self-Hosting 101: Welcome to the Wonderful World of Hosting Your Own Services
 
-> 
-> 🙏🏻 Some links may be affiliate links that keep this site running.
-> 
+
 
 If you've found your way to this post, you're probably curious about the ins and outs of self-hosting. Don't worry - you're in the right place. This is the starting line of your journey into the fantastic world of self-hosting. So buckle up, grab a cup of of coffee (or water if that's your thing), and let's dive in!
+
+<!-- FM:Snippet:Start data:{"id":"Affiliate warning","fields":[]} -->
+> Some links may be affiliate links that keep this site running.
+{: .prompt-info}
+<!-- FM:Snippet:End -->
 
 ## What on Earth is Self-Hosting?
 
@@ -27,7 +31,7 @@ One major appeal of self-hosting is the control it offers over your hosting envi
 
 To get started with self-hosting, you'll need both hardware and software. This includes a physical server or a cloud-based hosting solution, an operating system, a web server such as Apache or Nginx, and any additional software necessary to power your services. Depending on your requirements, you might also need other tools such as a database server or content management system.
 
-I host majority of my cloud instances on [HostHatch] VPS (Virtual Private Server) Instance (In Asia) for a steal. Some of the other hosts I use are [RackNerd] (US) and [WebHorizon] (Asia+Europe) VPS, and decided that it is time to move away from Linode - which is a Great service, but I am looking to reduce the billing on instances. For comparison, I save more than 50% on HostHatch compared to [Linode] ($3.33 compared to $8) - Don't get me wrong, if this was an extremely critical application, I would keep it on [Linode].
+
 
 ## The Essential Considerations for a Smooth Journey
 
@@ -46,12 +50,17 @@ Embarking on a self-hosting journey can be an empowering way to take the reins o
 ## You might want to just dive in, but lets read the following first.
 ![Let's go animation][Let's Go]
 
-## Are there any risks involved with self hosting?
+### Are there any risks involved with self hosting?
 
 When it comes to self-hosting, it is important to be aware of the potential risks that come with it. Self-hosting involves the direct management of servers and services, which can leave your data vulnerable to cyber-attacks or other malicious activities. If not properly monitored, a self-hosted environment can suffer from downtime or performance issues and can cause a TON of frustration! However, many of these risks can be minimized with the implementation of proper security measures and regular maintenance. It is also important to consider the cost of self-hosting when weighing the potential risks, as it may not be financially viable for some. 
 
+<!-- FM:Snippet:Start data:{"id":"VPS Links","fields":[]} -->
+<div class="alert alert-info" style="background-color: lavender; border: none; color: black;">
+  <!--<i class="fas fa-info-circle"></i><br>--> I host majority of my cloud instances on <a href="https://cloud.hosthatch.com/a/3785" target=_blank>HostHatch VPS (Virtual Private Server) Instance</a> (In Asia) for a steal. Some of the other hosts I use are <a href="https://my.racknerd.com/aff.php?aff=9825" target=_blank>RackNerd</a> (US) and <a href="https://clients.webhorizon.net/?affid=27" target=_blank>WebHorizon</a> (Asia+Europe) VPS, and decided that it is time to move away from Linode - which is a Great service, but I am looking to reduce the billing on instances. For comparison, I save more than 50% on <a href="https://cloud.hosthatch.com/a/3785" target=_blank>HostHatch</a> compared to <a href="https://www.linode.com/lp/refer/?r=1ba3d23e62b7803c1d317de14a21a9f96a9a1b97" target=_blank>Linode</a> ($3.33 compared to $8) - Don't get me wrong, if this was an extremely (like REALLY) critical application, I would keep it on <a href="https://www.linode.com/lp/refer/?r=1ba3d23e62b7803c1d317de14a21a9f96a9a1b97" target=_blank>Linode</a>.
+</div>
+<!-- FM:Snippet:End -->
 
-## How much does self hosting cost?
+### How much does self hosting cost?
 
 Self-hosting is an economical option for those that want to host their own services. It is generally much cheaper than other hosting services, but the cost of self-hosting depends on the type of service you are hosting and the hardware and software you are using. The cost of running the hardware and software can range from a few cents to a few hundred dollars per month, depending on the size and complexity of the hosting environment. However, the cost of self-hosting can often be offset by the savings from not having to pay for hosting services from a third-party provider. Additionally, if you have a lot of IT knowledge or experience, you may be able to save money by setting up and managing the hosting environment yourself.
 
@@ -68,9 +77,9 @@ Thank you for taking the time to read the article and be part of the self hostin
 
 
 
-[HostHatch]: (https://cloud.hosthatch.com/a/3785?ref=selfhosted.club)
-[RackNerd]: (https://cloud.hosthatch.com/a/3785?ref=selfhosted.club)
-[WebHorizon]: (https://clients.webhorizon.net/?affid=27&ref=selfhosted.club)
-[Linode]: (https://www.linode.com/lp/refer/?r=1ba3d23e62b7803c1d317de14a21a9f96a9a1b97&ref=selfhosted.club)
+[HostHatch]: https://cloud.hosthatch.com/a/3785?ref=selfhosted.club
+[RackNerd]: https://cloud.hosthatch.com/a/3785?ref=selfhosted.club
+[WebHorizon]: https://clients.webhorizon.net/?affid=27&ref=selfhosted.club
+[Linode]: https://www.linode.com/lp/refer/?r=1ba3d23e62b7803c1d317de14a21a9f96a9a1b97&ref=selfhosted.club
 [Let's Go]: https://media1.tenor.com/m/68l8oNneHuUAAAAC/wheelie-rollin.gif
-[r/selfhosted]: (https://www.reddit.com/r/selfhosted/)
+[r/selfhosted]: https://www.reddit.com/r/selfhosted/
